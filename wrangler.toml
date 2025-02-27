@@ -1,0 +1,6 @@
+toml
+
+name = "runpod1"  # Name your Worker (e.g., match Cloudflare Worker name)
+main = "worker.js"  # Path to your script
+compatibility_date = "2025-02-27"  # Use today's date or latest
+
