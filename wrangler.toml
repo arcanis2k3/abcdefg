@@ -2,3 +2,6 @@ name = "runpod1"  # Name your Worker (e.g., match Cloudflare Worker name)
 main = "worker.js"  # Path to your script
 compatibility_date = "2025-02-27"  # Use today's date or latest
 
+[vars]
+WORKER_SECRET_TOKEN = ""  # Will be set in Cloudflare or GitHub Secrets
+RUNPOD_API_KEY = ""      # Will be set in Cloudflare or GitHub Secrets
